@@ -8,3 +8,4 @@ rm ~/.config/i3/i3blocks.conf
 cp i3/i3blocks.conf ~/.config/i3
 rmdir ~/.screenlayout
 cp -r screenlayout ~/.screenlayout 
+sudo cp rc.local /etc/rc.local
