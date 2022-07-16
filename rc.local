@@ -1,0 +1,3 @@
+#! /bin/bash
+su -c 'modprobe -r pcspkr && echo "blacklist pcspkr" >> /etc/modprobe.d/50-blacklist.conf'
+exit 0
